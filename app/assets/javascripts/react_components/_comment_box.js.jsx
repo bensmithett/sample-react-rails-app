@@ -20,8 +20,10 @@ var CommentBox = React.createClass({
   render: function () {
     return (
       <div className="comment-box">
-        <h1>Comments</h1>
+        <img src={ this.props.imgSrc } alt={ this.props.imgAlt } />
         <CommentList comments={ this.state.comments } />
+        <hr />
+        <h2>Add a comment:</h2>
         <CommentForm form={ this.state.form } onCommentSubmit={ this.handleCommentSubmit } />
       </div>
     );

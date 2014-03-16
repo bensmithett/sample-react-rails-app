@@ -23,10 +23,10 @@ var CommentForm = React.createClass({
   render: function () {
     return (
       <form ref="form" className="comment-form" action={ this.props.form.action } accept-charset="UTF-8" method="post" onSubmit={ this.handleSubmit }>
-        <p><input name={ this.props.form.csrf_param } value={ this.props.form.csrf_token } /></p>
+        <p><input type="hidden" name={ this.props.form.csrf_param } value={ this.props.form.csrf_token } /></p>
         <p><input ref="author" name="comment[author]" placeholder="Your name" /></p>
         <p><textarea ref="text" name="comment[text]" placeholder="Say something..." /></p>
-        <p><input type="submit" value="Post" /></p>
+        <p><button type="submit">Post comment</button></p>
       </form>
     )
   }
