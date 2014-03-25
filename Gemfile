@@ -4,7 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.4'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# gem 'sqlite3'
+gem 'pg'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
@@ -45,4 +46,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 # gem "react-rails", "~> 0.9.0.0"
-gem 'react-rails', "~> 0.9.0.0", :git => 'git://github.com/bensmithett/react-rails.git', :branch => 'server-rendering'
+# gem 'react-rails', "~> 0.9.0.0", :git => 'git://github.com/bensmithett/react-rails.git', :branch => 'server-rendering'
+gem 'react-rails', :git => 'git://github.com/johnthethird/react-rails.git', :ref => '940c7f2f8973c69de05bb848f9fbe8aeccdd7a6e'
+
+gem 'rails_12factor', group: :production
