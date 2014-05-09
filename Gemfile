@@ -45,8 +45,7 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-# gem "react-rails", "~> 0.9.0.0"
-# gem 'react-rails', "~> 0.9.0.0", :git => 'git://github.com/bensmithett/react-rails.git', :branch => 'server-rendering'
-gem 'react-rails', :git => 'git://github.com/johnthethird/react-rails.git', :ref => '940c7f2f8973c69de05bb848f9fbe8aeccdd7a6e'
+# Server-rendering isn't in an official version yet, let's grab it off master
+gem 'react-rails', :git => 'git://github.com/reactjs/react-rails.git', :ref => 'c09a0c6522301db7cb2bcea6673aa349298847f2'
 
 gem 'rails_12factor', group: :production

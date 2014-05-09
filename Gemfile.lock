@@ -1,7 +1,7 @@
 GIT
-  remote: git://github.com/johnthethird/react-rails.git
-  revision: 940c7f2f8973c69de05bb848f9fbe8aeccdd7a6e
-  ref: 940c7f2f8973c69de05bb848f9fbe8aeccdd7a6e
+  remote: git://github.com/reactjs/react-rails.git
+  revision: c09a0c6522301db7cb2bcea6673aa349298847f2
+  ref: c09a0c6522301db7cb2bcea6673aa349298847f2
   specs:
     react-rails (1.0.0.pre)
       connection_pool
@@ -37,7 +37,6 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.2)
-    atomic (1.1.15)
     builder (3.1.4)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -64,7 +63,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25.1)
     minitest (4.7.5)
-    multi_json (1.9.0)
+    multi_json (1.10.0)
     pg (0.17.1)
     polyglot (0.3.4)
     rack (1.5.2)
@@ -88,17 +87,17 @@ GEM
       activesupport (= 4.0.4)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (10.1.1)
+    rake (10.3.1)
     rdoc (4.1.1)
       json (~> 1.4)
     react-source (0.9.0)
     ref (1.0.5)
-    sass (3.2.15)
-    sass-rails (4.0.2)
+    sass (3.2.19)
+    sass-rails (4.0.3)
       railties (>= 4.0.0, < 5.0)
       sass (~> 3.2.0)
       sprockets (~> 2.8, <= 2.11.0)
-      sprockets-rails (~> 2.0.0)
+      sprockets-rails (~> 2.0)
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
@@ -114,15 +113,14 @@ GEM
     therubyracer (0.12.1)
       libv8 (~> 3.16.14.0)
       ref
-    thor (0.18.1)
-    thread_safe (0.2.0)
-      atomic (>= 1.1.7, < 2)
+    thor (0.19.1)
+    thread_safe (0.3.3)
     tilt (1.4.1)
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.39)
-    uglifier (2.4.0)
+    uglifier (2.5.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
 
