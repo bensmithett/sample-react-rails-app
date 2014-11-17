@@ -1,13 +1,12 @@
 GIT
   remote: git://github.com/reactjs/react-rails.git
-  revision: c09a0c6522301db7cb2bcea6673aa349298847f2
-  ref: c09a0c6522301db7cb2bcea6673aa349298847f2
+  revision: b0dd8c3296ca103384717ff8e5f469a6e2313baf
   specs:
     react-rails (1.0.0.pre)
       connection_pool
       execjs
       rails (>= 3.1)
-      react-source (= 0.9.0)
+      react-source (= 0.12)
 
 GEM
   remote: https://rubygems.org/
@@ -90,7 +89,7 @@ GEM
     rake (10.3.2)
     rdoc (4.1.1)
       json (~> 1.4)
-    react-source (0.9.0)
+    react-source (0.12.0)
     ref (1.0.5)
     sass (3.2.19)
     sass-rails (4.0.3)
@@ -134,7 +133,7 @@ DEPENDENCIES
   pg
   rails (= 4.0.4)
   rails_12factor
-  react-rails!
+  react-rails (~> 1.0.0.pre)!
   sass-rails (~> 4.0.2)
   sdoc
   therubyracer
