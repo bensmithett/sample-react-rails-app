@@ -1,5 +1,3 @@
-/** @jsx React.DOM */
-
 var CommentForm = React.createClass({
   handleSubmit: function ( event ) {
     event.preventDefault();

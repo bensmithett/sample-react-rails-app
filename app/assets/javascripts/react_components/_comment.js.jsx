@@ -1,5 +1,3 @@
-/** @jsx React.DOM */
-
 var Comment = React.createClass({
   render: function () {
     return (
