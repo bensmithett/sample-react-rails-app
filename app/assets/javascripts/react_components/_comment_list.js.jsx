@@ -1,5 +1,3 @@
-/** @jsx React.DOM */
-
 var CommentList = React.createClass({
   render: function () {
     var commentNodes = this.props.comments.map(function ( comment ) {

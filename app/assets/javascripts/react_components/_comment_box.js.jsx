@@ -1,5 +1,3 @@
-/** @jsx React.DOM */
-
 var CommentBox = React.createClass({
   getInitialState: function () {
     return JSON.parse(this.props.presenter);
