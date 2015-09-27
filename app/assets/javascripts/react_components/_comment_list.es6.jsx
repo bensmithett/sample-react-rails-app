@@ -1,5 +1,5 @@
-var CommentList = React.createClass({
-  render: function () {
+class CommentList extends React.Component {
+  render () {
     var commentNodes = this.props.comments.map(function ( comment ) {
       return <Comment author={ comment.author } text={ comment.text } key={ comment.id } />
     });
@@ -10,4 +10,4 @@ var CommentList = React.createClass({
       </div>
     )
   }
-});
+}

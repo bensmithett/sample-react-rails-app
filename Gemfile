@@ -45,6 +45,6 @@ end
 # gem 'debugger', group: [:development, :test]
 
 # Server-rendering isn't in 0.x, need to grab the 1.x prerelease
-gem 'react-rails', '~> 1.0.0.pre', github: 'reactjs/react-rails'
+gem 'react-rails', '~> 1.3.0'
 
 gem 'rails_12factor', group: :production
