@@ -1,5 +1,5 @@
-var Comment = React.createClass({
-  render: function () {
+class Comment extends React.Component {
+  render () {
     return (
       <div>
         <h4>{ this.props.author } said:</h4>
@@ -7,4 +7,4 @@ var Comment = React.createClass({
       </div>
     )
   }
-});
+}

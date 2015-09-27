@@ -1,9 +1,10 @@
-var CommentBox = React.createClass({
-  getInitialState: function () {
-    return JSON.parse(this.props.presenter);
-  },
+class CommentBox extends React.Component {
+  constructor(props) {
+   super(props);
+   this.state = JSON.parse(props.presenter);
+  }
 
-  handleCommentSubmit: function ( formData, action ) {
+  handleCommentSubmit ( formData, action ) {
     $.ajax({
       data: formData,
       url: action,
@@ -13,17 +14,17 @@ var CommentBox = React.createClass({
         this.setState({ comments: data });
       }.bind(this)
     });
-  },
+  }
 
-  render: function () {
+  render () {
     return (
       <div className="comment-box">
         <img src={ this.props.imgSrc } alt={ this.props.imgAlt } />
         <CommentList comments={ this.state.comments } />
         <hr />
         <h2>Add a comment:</h2>
-        <CommentForm form={ this.state.form } onCommentSubmit={ this.handleCommentSubmit } />
+        <CommentForm form={ this.state.form } onCommentSubmit={ this.handleCommentSubmit.bind(this) } />
       </div>
     );
   }
-});
+}
