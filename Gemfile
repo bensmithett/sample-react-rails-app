@@ -48,3 +48,5 @@ end
 gem 'react-rails', '~> 1.0.0.pre', github: 'reactjs/react-rails'
 
 gem 'rails_12factor', group: :production
+
+gem 'sqlite3'

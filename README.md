@@ -10,5 +10,5 @@ The app displays a photo with simple list of comments and a form for adding new 
 To get the app running:
 
 - `bundle install`
-- `rake db:migrate`
-- `rails server`
+- `bundle exec rake db:setup`
+- `bunlde exec rails server`
